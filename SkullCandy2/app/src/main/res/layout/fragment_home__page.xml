@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Page_Fargment">
+
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+
+        >
+    </ViewFlipper>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    >
+
+    <TextView
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Flash Sale"
+        android:textColor="#6F2A39"
+        android:layout_marginLeft="8dp"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/flash"
+        android:fontFamily="cursive"
+        android:text="10:10:10"
+        android:textColor="#6F2A39"
+
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timerShopNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+       android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:text="Shop Now"
+        android:textColor="#6F2A39"
+
+
+        android:textSize="20sp" />
+
+    <ImageView
+      android:id="@+id/sale1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sale1"
+        android:layout_marginTop="-8dp"
+        android:layout_below="@+id/flash"
+        />
+
+    <ImageView
+        android:id="@+id/sale"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sale2"
+        android:layout_below="@+id/flash"
+        android:layout_toRightOf="@+id/sale1"
+        android:layout_marginTop="12dp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sale2"
+
+        android:layout_below="@+id/timerShopNow"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/sale"
+        />
+
+    <TextView
+        android:id="@+id/salet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sale1"
+        android:text="SkullCandy $60"
+        android:layout_marginLeft="40dp"
+        android:textColor="#6F2A39"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sale1"
+        android:text="SkullCandy $60"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/salet"
+        android:id="@+id/salet2"
+        android:textColor="#6F2A39"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sale1"
+        android:text="SkullCandy $60"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/salet2"
+        android:textColor="#6F2A39"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/aq"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/salet2"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/skull"
+        android:padding="20dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069319740053",
+    "firebase_url": "https://skullcandy-27fa7.firebaseio.com",
+    "project_id": "skullcandy-27fa7",
+    "storage_bucket": "skullcandy-27fa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069319740053:android:82d960fac7484ce9b4199c",
+        "android_client_info": {
+          "package_name": "abi.projectH.skullcandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069319740053-82ujertf0hs0bpobrg69n9e77duld0r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8yBH9VCst9JGHGLHKauCgWkI385JOIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069319740053-82ujertf0hs0bpobrg69n9e77duld0r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

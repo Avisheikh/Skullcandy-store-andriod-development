@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SkullCandy</string>
+    <string name="fName">Enter First Name</string>
+    <string name="lName">Enter Last Name</string>
+    <string name="email">Enter Email Address</string>
+    <string name="pass1">Enter Password</string>
+    <string name="pass2">Re-type Password</string>
+    <string name="createAccount">CREATE ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="connect">Connect With Other Ways</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="google">GOOGLE</string>
+    <string name="home_page">Home</string>
+    <string name="store_page">Store</string>
+    <string name="cart_page">Cart</string>
+    <string name="account_page">Account</string>
+    <string-array name="headphones">
+        <item>Abishek</item>
+        <item>Bhandari</item>
+        <item>Headphone</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
